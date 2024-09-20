@@ -1,0 +1,13 @@
+{
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "javascript.suggest.autoImports": true,
+    "tailwindCSS.classAttributes": ["class", "className", "ngClass", "class:list", "clsx"],
+    "tailwindCSS.experimental.classRegex": [
+        "[a-zA-Z]*[cC]lassName\\s*[=:]\\s*['\"`]([^'\"`]*)['\"`]",
+        ["clsx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
+    ],
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "always"
+    }
+}
