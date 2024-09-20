@@ -5,6 +5,7 @@ export default {
     jsxSingleQuote: false,
     bracketSameLine: true,
     plugins: ['@trivago/prettier-plugin-sort-imports', 'prettier-plugin-tailwindcss'],
+    tailwindAttributes: ['autoSortClassName'],
     tailwindFunctions: ['clsx'],
     importOrder: ['^@core/(.*)$', '^@server/(.*)$', '^@ui/(.*)$', '^[./]'],
     importOrderSeparation: true,
