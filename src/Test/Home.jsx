@@ -1,8 +1,7 @@
 import clsx from 'clsx';
-import { useState } from 'react';
 
 const Home = () => {
-    const [isColorText, setIsColorText] = useState(true);
+    const isColorText = true;
 
     return (
         <div className="container mx-auto flex min-h-screen flex-col items-center bg-gradient-to-r from-indigo-50 to-cyan-50 p-6 text-base text-gray-700">
