@@ -1,18 +1,16 @@
-import { useState } from "react";
-import React from "react";
-import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
-import ViteHome from "./Test/ViteHome";
-import TestTailwind from "./Test/TestTailwind";
+import React from 'react';
+import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
+
+import Home from './Test/Home';
 
 function App() {
-  return (
-    <Router>
-      <Routes>
-        <Route index element={<ViteHome />} />
-        <Route path="TestTailwind" element={<TestTailwind />} />
-      </Routes>
-    </Router>
-  );
+    return (
+        <Router>
+            <Routes>
+                <Route index element={<Home />} />
+            </Routes>
+        </Router>
+    );
 }
 
 export default App;
