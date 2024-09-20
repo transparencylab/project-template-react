@@ -1,0 +1,9 @@
+{
+    "recommendations": [
+        "bradlc.vscode-tailwindcss",
+        "steoates.autoimport",
+        "dbaeumer.vscode-eslint",
+        "mhutchie.git-graph",
+        "esbenp.prettier-vscode"
+    ]
+}
