@@ -2,7 +2,8 @@
     "extends": ["alloy", "alloy/react", "prettier"],
     "plugins": ["prettier"],
     "rules": {
-        "prettier/prettier": "error"
+        "linebreak-style": "off",
+        "prettier/prettier": ["error", { "endOfLine": "auto" }]
     },
     "settings": {
         "react": {

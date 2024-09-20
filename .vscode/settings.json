@@ -6,5 +6,8 @@
     "tailwindCSS.experimental.classRegex": [
         "[a-zA-Z]*[cC]lassName\\s*[=:]\\s*['\"`]([^'\"`]*)['\"`]",
         ["clsx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
-    ]
+    ],
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "always"
+    }
 }
