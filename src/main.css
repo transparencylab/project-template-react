@@ -4,8 +4,6 @@
 
 @layer base {
     :root {
-        --color1: theme(colors.color1);
-        --color1-light: theme(colors.color2);
     }
 
     body {
